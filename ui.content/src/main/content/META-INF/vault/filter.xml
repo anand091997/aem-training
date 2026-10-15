@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/brainvire" mode="merge"/>
+    <filter root="/content/brainvire" mode="merge"/>
+    <filter root="/content/dam/brainvire" mode="merge">
+        <exclude pattern="/content/dam/brainvire(/.*)?"/>
+        <include pattern="/content/dam/brainvire/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/brainvire/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/brainvire" mode="merge"/>
+</workspaceFilter>

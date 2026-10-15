@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/brainvire/clientlibs"/>
+    <filter root="/apps/brainvire/components"/>
+    <filter root="/apps/brainvire/i18n"/>
+    <filter root="/apps/msm/brainvire_blueprint" mode="merge"/>
+    <filter root="/oak:index/diff.index"/>
+</workspaceFilter>

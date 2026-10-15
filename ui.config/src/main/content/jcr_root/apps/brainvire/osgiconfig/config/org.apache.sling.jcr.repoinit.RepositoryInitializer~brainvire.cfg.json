@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/brainvire",
+        "create path (nt:unstructured) /content/dam/brainvire/jcr:content",
+        "set properties on /content/dam/brainvire/jcr:content\n  set cq:conf{String} to /conf/brainvire\n  set jcr:title{String} to \"AEM Brainvire\"\nend"
+    ]
+}
